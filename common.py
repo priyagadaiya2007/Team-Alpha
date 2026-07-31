@@ -8,23 +8,7 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-# Method 3: Multiplication
-def multiply(a, b):
-    return a * b
 
-# Method 4: Division
-def divide(a, b):
-    if b != 0:
-        return a / b
-    return "Division by zero is not allowed"
-
-# Method 5: Modulus
-def modulus(a, b):
-    return a % b
-
-# Method 6: Power
-def power(a, b):
-    return a ** b
 
 # Input from user
 num1 = int(input("Enter first number: "))
